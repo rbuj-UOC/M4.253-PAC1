@@ -1,4 +1,13 @@
-import { ex1, ex2 } from "./pec1";
+import { render, screen } from '@testing-library/react';
+import { ex1, ex2 } from './App';
+
+/*
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+*/
 
 describe("ex1", () => {
   test("should return true when value is less than 0", () => {

@@ -60,13 +60,13 @@ Recuerda que este reto tiene asociadas dos actividades de evaluación que tambi�
 
 ## Preguntas Teóricas (7p)
 
-Deberás responder a estas preguntas en el fichero `src/pec1/pec1.md`
+Deberás responder a estas preguntas en el fichero [src/README.md](src/README.md)
 
 ### Ejercicio T1 (3p)
 
 La siguiente imagen muestra un escenario de desarrollo colaborativo en GitHub:
 
-![ej1](public/ej1.png)
+![ej1](img/ej1.png)
 
 En la parte superior central puedes ver el repositorio en GitHub, el cual contiene los ficheros indicados en la caja. En la parte inferior, se han representado dos desarrolladores (uno en la parte izquierda y otro en la derecha, denominados `Dev1` y `Dev2`, respectivamente), cada uno de los cuales ha clonado el repositorio de GitHub. Además, cada desarrollador ha editado el fichero indicado en negrita. 
 
@@ -78,7 +78,7 @@ Responde y razona las siguientes preguntas (máximo 300 palabras):
 
 La siguiente figura muestra un escenario de la evolución de un repositorio donde trabaja un equipo de desarrollo que está creando una aplicación web:
 
-![ej2](public/ej2.png)
+![ej2](img/ej2.png)
 
 Cada una de las líneas horizontales representa una rama en el repositorio. Como puede observarse, existen tres ramas:
 
@@ -96,7 +96,7 @@ Responde y razona la siguiente pregunta (máximo 300 palabras):
 
 El usuario `jlcanovas` de GitHub te muestra uno de los repositorios de su cuenta GitHub. La siguiente captura muestra parte de la pantalla que te muestra.
 
-![ej3](public/ej3.png)
+![ej3](img/ej3.png)
 
 El usuario afirma que todo el trabajo de ese repositorio es suyo, y que siempre ha trabajado, desde su inicio, solo en el desarrollo del código.  
 
@@ -105,11 +105,11 @@ Responde y razona las siguientes preguntas (máximo 300 palabras):
 
 ## Ejercicios prácticos (2p)
 
-Para realizar los ejercicios prácticos debes dirigirte al fichero `src/pec1/pec1.js`
+Para realizar los ejercicios prácticos debes dirigirte al fichero [src/App.js](src/App.js)
 
 En este fichero deberás definir las funciones que te indicamos en los ejercicios que verás más abajo.
 
-Por otro lado, los tests que te permitirán saber si la solución que propones para los ejercicios es correcta están en el fichero `src/pec/pec1.spec.js`.
+Por otro lado, los tests que te permitirán saber si la solución que propones para los ejercicios es correcta están en el fichero [src/App.test.js](src/App.test.js).
 **No debes editar este fichero**.
 Ten en cuenta que los tests son condiciones que deben cumplir las funciones que implementarás en los ejercicios, por lo que pueden servirte de ayuda para corregirlos.
 
@@ -139,14 +139,14 @@ Recuerda que es necesario estar situado en la carpeta raíz del proyecto.
 npm t
 ```
 
-La instrucción anterior lanzará los tests cada vez que guardes el fichero `src/pec1/pec1.js`, que es precisamente donde implementarás los ejercicios de esta PEC.
+La instrucción anterior lanzará los tests cada vez que guardes el fichero [src/App.js](src/App.js), que es precisamente donde implementarás los ejercicios de esta PEC.
 
 Como puedes esperar, la primera vez que ejecutes `npm t` y se lancen los tests, fallarán todos, ya que no hay ningún ejercicio implementado. Revisa el mensaje de error que se imprime para conocer su formato y entender cómo se notifican los errores.
 
 Este es un ejemplo de una posible salida de error:
 
 ```
- FAIL  src/pec1/pec1.spec.js
+ FAIL  src/App.js
   ex1:
     × should return true when temp is bigger or equal than 37.0 (2 ms)
 ```
@@ -156,7 +156,7 @@ Es importante fijarse en la descripción del error, por ejemplo, el texto de err
 Una vez corregido el problema, en cuanto se guarda el fichero donde estamos editando los ejercicios, el test se vuelve a lanzar y nos mostraría:
 
 ```
- PASS  src/pec1/pec1.spec.js
+ PASS  src/App.js
   ex1
     √ should return true when temp is bigger or equal than 37.0 (2 ms)
 ```

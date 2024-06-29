@@ -60,13 +60,13 @@ Recorda que aquest repte té associades dues activitats d'avaluació que també 
 
 ## Preguntes Teòriques (7p)
 
-Hauràs de respondre aquestes preguntes al fitxer `src/pec1/pec1.md`
+Hauràs de respondre aquestes preguntes al fitxer [src/README.md](src/README.md)
 
 ### Exercici T1 (3p)
 
 La següent imatge mostra un escenari de desenvolupament col·laboratiu en GitHub:
 
-![ej1](public/ej1.png)
+![ej1](img/ej1.png)
 
 A la part superior central pots veure el repositori en GitHub, el qual conté els fitxers indicats a la caixa. A la part inferior, s'han representat dos desenvolupadors (un a l'esquerra i un altre a la dreta, denominats `Dev1` i `Dev2`, respectivament), cadascun dels quals ha clonat el repositori de GitHub. A més, cada desenvolupador ha editat el fitxer indicat en negreta. 
 
@@ -78,7 +78,7 @@ Respon i raona les següents preguntes (màxim 300 paraules):
 
 La següent figura mostra un escenari de l'evolució d'un repositori on treballa un equip de desenvolupament que està creant una aplicació web:
 
-![ej2](public/ej2.png)
+![ej2](img/ej2.png)
 
 Cadascuna de les línies horitzontals representa una branca en el repositori. Com pots veure, existeixen tres branques:
 
@@ -96,7 +96,7 @@ Respon i raona la següent pregunta (màxim 300 paraules):
 
 L'usuari `jlcanovas` de GitHub et mostra un dels repositoris del seu compte GitHub. La següent captura mostra part de la pantalla que et mostra.
 
-![ej3](public/ej3.png)
+![ej3](img/ej3.png)
 
 L'usuari afirma que tot el treball d'aquest repositori és seu, i que sempre ha treballat, des del seu inici, només en el desenvolupament del codi.  
 
@@ -105,11 +105,11 @@ Respon i raona les següents preguntes (màxim 300 paraules):
 
 ## Exercicis pràctics (2p)
 
-Per realitzar els exercicis pràctics t'has de dirigir al fitxer `src/pec1/pec1.js`.
+Per realitzar els exercicis pràctics t'has de dirigir al fitxer [src/App.js](src/App.js).
 
 En aquest fitxer hauràs de definir les funcions que t'indiquem als exercicis que veuràs més avall.
 
-D'altra banda, els tests que et permetran saber si la solució que proposes per als exercicis és correcta són al fitxer `src/pec/pec1.spec.js`.
+D'altra banda, els tests que et permetran saber si la solució que proposes per als exercicis és correcta són al fitxer [src/App.test.js](src/App.test.js).
 **No has d'editar aquest fitxer**.
 Tingues en compte que els tests són condicions que han de complir les funcions que implementaràs en els exercicis, per la qual cosa et poden servir d'ajuda per corregir-los.
 
@@ -139,14 +139,14 @@ Recorda que cal estar situat a la carpeta arrel del projecte.
 npm t
 ````
 
-La instrucció anterior llançarà els tests cada vegada que deseu el fitxer `src/pec1/pec1.js`, que és precisament on implementareu els exercicis d'aquesta PAC.
+La instrucció anterior llançarà els tests cada vegada que deseu el fitxer [src/App.test.js](src/App.js), que és precisament on implementareu els exercicis d'aquesta PAC.
 
 Com pots esperar, la primera vegada que executis `npm t` i es llencin els tests, fallaran tots, ja que no hi ha cap exercici implementat. Revisa el missatge d'error que s'imprimeix per conèixer el format i entendre com es notifiquen els errors.
 
 Aquest és un exemple d'una possible sortida d'error:
 
 ````
-  FAIL src/pec1/pec1.spec.js
+  FAIL src/App.js
    ex1:
      × should return true when temp is bigger or equal than 37.0 (2 ms)
 ````
@@ -156,7 +156,7 @@ Aquest és un exemple d'una possible sortida d'error:
 Un cop corregit el problema, quan es desa el fitxer on estem editant els exercicis, el test es torna a llançar i ens mostraria:
 
 ````
-  PASS src/pec1/pec1.spec.js
+  PASS src/App.js
    ex1
      √ should return true when temp is bigger or equal than 37.0 (2 ms)
 ````
