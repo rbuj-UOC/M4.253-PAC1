@@ -27,7 +27,7 @@ Un cop hagis realitzat les activitats pràctiques proposades en aquest enunciat,
 - Hauràs d'enviar els teus canvis a l'apartat de l'aula virtual de la UOC.
 - Hauràs d'enviar els teus canvis al Repositori de GitHub Classroom.
 
-Recorda que aquest repositori l'has clonat del repositori a GitHub. Quan treballis al teu sistema, tots els canvis els faràs als teus fitxers locals, els quals hauràs d'afegir i _comitejar_ al teu repositori Git. Aquests canvis estaran al teu sistema fins que facis _push_ i els enviïs al repositori a GitHub. 
+Recorda que aquest repositori l'has clonat del repositori a GitHub. Quan treballis al teu sistema, tots els canvis els faràs als teus fitxers locals, els quals hauràs d'afegir i _comitejar_ al teu repositori Git. Aquests canvis estaran al teu sistema fins que facis _push_ i els enviïs al repositori a GitHub.
 
 Recorda que has de treballar a la branca _main_ o _master_ (la que es crei per defecte). Pots fer diversos enviaments.
 
@@ -35,9 +35,9 @@ A l'aula virtual trobaràs una _checklist_ que t'ajudarà a repassar tots els pa
 
 ## Puntuació
 
-El fet de treballar amb tests per verificar la funcionalitat del codi, us permetrà tenir una idea de la vostra pròpia nota abans del lliurament. 
+El fet de treballar amb tests per verificar la funcionalitat del codi, us permetrà tenir una idea de la vostra pròpia nota abans del lliurament.
 
-La puntuació dels exercicis pràctics es basa en dos criteris: **Funcionalitat** i **implementació**. S'espera que els exercicis funcionin correctament (passin els tests) i que la implementació (el codi) tingui una qualitat adequada. 
+La puntuació dels exercicis pràctics es basa en dos criteris: **Funcionalitat** i **implementació**. S'espera que els exercicis funcionin correctament (passin els tests) i que la implementació (el codi) tingui una qualitat adequada.
 
 Alguns detalls a tenir en compte:
 
@@ -68,11 +68,12 @@ La següent imatge mostra un escenari de desenvolupament col·laboratiu en GitHu
 
 ![ej1](img/ej1.png)
 
-A la part superior central pots veure el repositori en GitHub, el qual conté els fitxers indicats a la caixa. A la part inferior, s'han representat dos desenvolupadors (un a l'esquerra i un altre a la dreta, denominats `Dev1` i `Dev2`, respectivament), cadascun dels quals ha clonat el repositori de GitHub. A més, cada desenvolupador ha editat el fitxer indicat en negreta. 
+A la part superior central pots veure el repositori en GitHub, el qual conté els fitxers indicats a la caixa. A la part inferior, s'han representat dos desenvolupadors (un a l'esquerra i un altre a la dreta, denominats `Dev1` i `Dev2`, respectivament), cadascun dels quals ha clonat el repositori de GitHub. A més, cada desenvolupador ha editat el fitxer indicat en negreta.
 
 Respon i raona les següents preguntes (màxim 300 paraules):
-* T1.1 (2p) Indica les comandes que hauria de realitzar cada desenvolupador per a sincronitzar els seus canvis amb el repositori en GitHub. No tinguis en compte la possibilitat que es produeixi un conflicte, ja que aquest cas es tracta en el següent apartat.
-* T1.2 (1p) Pot donar-se alguna situació de conflicte en aquest escenari?
+
+- T1.1 (2p) Indica les comandes que hauria de realitzar cada desenvolupador per a sincronitzar els seus canvis amb el repositori en GitHub. No tinguis en compte la possibilitat que es produeixi un conflicte, ja que aquest cas es tracta en el següent apartat.
+- T1.2 (1p) Pot donar-se alguna situació de conflicte en aquest escenari?
 
 ### Exercici T2 (3p)
 
@@ -82,15 +83,16 @@ La següent figura mostra un escenari de l'evolució d'un repositori on treballa
 
 Cadascuna de les línies horitzontals representa una branca en el repositori. Com pots veure, existeixen tres branques:
 
-* `main`, que és la branca principal del repositori.
-* `front-end`, on treballa l'equip de desenvolupament que està creant el _front-end_ de l'aplicació.
-* `back-end`, on treballa l'equip de desenvolupament que està creant el _back-end_ de l'aplicació. 
+- `main`, que és la branca principal del repositori.
+- `front-end`, on treballa l'equip de desenvolupament que està creant el _front-end_ de l'aplicació.
+- `back-end`, on treballa l'equip de desenvolupament que està creant el _back-end_ de l'aplicació.
 
-A més, cada cercle representa un commit en el repositori. Els commits s'han numerat segons el seu moment temporal de creació. A més, la seva posició horitzontal en cadascuna de les branques també ajuda a visualitzar el moment temporal en el qual s'han creat. D'aquesta manera, el commit `c6` s'ha creat abans que el commit `c8`, i el cercle que representa `c6` està més a l'esquerra que el cercle que representa `c8`. 
+A més, cada cercle representa un commit en el repositori. Els commits s'han numerat segons el seu moment temporal de creació. A més, la seva posició horitzontal en cadascuna de les branques també ajuda a visualitzar el moment temporal en el qual s'han creat. D'aquesta manera, el commit `c6` s'ha creat abans que el commit `c8`, i el cercle que representa `c6` està més a l'esquerra que el cercle que representa `c8`.
 
 Respon i raona la següent pregunta (màxim 300 paraules):
-* T2.1 (1p) Quins commits són considerats a la branca `front-end`? 
-* T2.2 (2p) L'escenari inclou un conflicte, quin és? com el solucionaries?
+
+- T2.1 (1p) Quins commits són considerats a la branca `front-end`?
+- T2.2 (2p) L'escenari inclou un conflicte, quin és? com el solucionaries?
 
 ### Exercici T3 (1p)
 
@@ -98,10 +100,11 @@ L'usuari `jlcanovas` de GitHub et mostra un dels repositoris del seu compte GitH
 
 ![ej3](img/ej3.png)
 
-L'usuari afirma que tot el treball d'aquest repositori és seu, i que sempre ha treballat, des del seu inici, només en el desenvolupament del codi.  
+L'usuari afirma que tot el treball d'aquest repositori és seu, i que sempre ha treballat, des del seu inici, només en el desenvolupament del codi.
 
 Respon i raona les següents preguntes (màxim 300 paraules):
-* (1p) Tens motius per a dubtar de l'afirmació del desenvolupador? Per què?
+
+- (1p) Tens motius per a dubtar de l'afirmació del desenvolupador? Per què?
 
 ## Exercicis pràctics (2p)
 
@@ -127,17 +130,17 @@ A continuació us donem algunes indicacions per preparar el vostre repositori pe
 
 #### Instal·la les dependències del projecte
 
-````
+```
 npm install
-````
+```
 
 Recorda que cal estar situat a la carpeta arrel del projecte.
 
 #### Executa els tests
 
-````
+```
 npm t
-````
+```
 
 La instrucció anterior llançarà els tests cada vegada que deseu el fitxer [src/App.test.js](src/App.js), que és precisament on implementareu els exercicis d'aquesta PAC.
 
@@ -145,21 +148,21 @@ Com pots esperar, la primera vegada que executis `npm t` i es llencin els tests,
 
 Aquest és un exemple d'una possible sortida d'error:
 
-````
+```
   FAIL src/App.js
    ex1:
      × should return true when temp is bigger or equal than 37.0 (2 ms)
-````
+```
 
 És important fixar-se en la descripció de l'error, per exemple, el text d'error anterior indica que per a l'exercici 1 (`ex1`) la funció ha de tornar `true` si `temp` és més gran o igual que 37.0. Aquesta indicació us ajuda a revisar el codi per comprovar perquè el comportament no és l'esperat.
 
 Un cop corregit el problema, quan es desa el fitxer on estem editant els exercicis, el test es torna a llançar i ens mostraria:
 
-````
+```
   PASS src/App.js
    ex1
      √ should return true when temp is bigger or equal than 37.0 (2 ms)
-````
+```
 
 Ara el test mostra `PASS` i el cas de prova que abans fallava es mostra com a correcte (amb el caràcter `√`).
 
@@ -170,7 +173,8 @@ L'entorn de proves té un menú (accessible mitjançant la tecla `w`) que us per
 Implementa una funció `ex1` que determini si un determinat valor numèric és negatiu.
 
 La funció rebrà el següent paràmetre:
-* `value`: És un valor numèric.
+
+- `value`: És un valor numèric.
 
 La funció retornarà `true` si el valor és negatiu i `false` en un altre cas.
 
@@ -179,7 +183,8 @@ La funció retornarà `true` si el valor és negatiu i `false` en un altre cas.
 Implementa una funció `ex2` que calculi el preu d'una línia de comanda en un tiquet de compra.
 
 La funció rebrà els següent paràmetres:
-* `price`: El preu de venda d'una unitat de producte. És un valor numèric positiu que pot portar decimals.
-* `amount`: És la quantitat d'unitats de producte de la línia de comanda. És un valor numèric positiu.
+
+- `price`: El preu de venda d'una unitat de producte. És un valor numèric positiu que pot portar decimals.
+- `amount`: És la quantitat d'unitats de producte de la línia de comanda. És un valor numèric positiu.
 
 La funció haurà de retornar el preu total de la línia de comanda, és a dir, el valor total de la venda de totes les unitats de producte de la línia de comanda.

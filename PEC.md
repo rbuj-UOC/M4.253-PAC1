@@ -8,7 +8,7 @@ En esta PEC se desarrollan las siguientes competencias del Máster:
 
 - Utilizar de manera adecuada el lenguaje JavaScript y usarlo en el desarrollo de sitios y aplicaciones web, en función de las necesidades del proyecto.
 - Adaptarse a las tecnologías web y a los futuros entornos, actualizando las competencias profesionales.
-- Aprender y actualizarse permanentemente. 
+- Aprender y actualizarse permanentemente.
 
 ## Objetivos
 
@@ -35,9 +35,9 @@ En el aula virtual encontrarás una _checklist_ que te ayudará a repasar todos 
 
 ## Puntuación
 
-El hecho de trabajar con tests para verificar la funcionalidad del código os permitirá tener una idea de vuestra propia nota antes de la entrega. 
+El hecho de trabajar con tests para verificar la funcionalidad del código os permitirá tener una idea de vuestra propia nota antes de la entrega.
 
-La puntuación de los ejercicios prácticos se basa en dos criterios: **Funcionalidad** e **implementación**. Se espera que los ejercicios funcionen correctamente (pasen los tests) y que la implementación (el código) tenga una calidad adecuada. 
+La puntuación de los ejercicios prácticos se basa en dos criterios: **Funcionalidad** e **implementación**. Se espera que los ejercicios funcionen correctamente (pasen los tests) y que la implementación (el código) tenga una calidad adecuada.
 
 Algunos detalles a tener en cuenta:
 
@@ -56,7 +56,7 @@ Algunos detalles a tener en cuenta:
 
 ## Actividades del reto (1p)
 
-Recuerda que este reto tiene asociadas dos actividades de evaluación que también deberás realizar. En particular, son las actividades 2.4 y 3.2, que encontrarás en el aula virtual. 
+Recuerda que este reto tiene asociadas dos actividades de evaluación que también deberás realizar. En particular, son las actividades 2.4 y 3.2, que encontrarás en el aula virtual.
 
 ## Preguntas Teóricas (7p)
 
@@ -68,11 +68,12 @@ La siguiente imagen muestra un escenario de desarrollo colaborativo en GitHub:
 
 ![ej1](img/ej1.png)
 
-En la parte superior central puedes ver el repositorio en GitHub, el cual contiene los ficheros indicados en la caja. En la parte inferior, se han representado dos desarrolladores (uno en la parte izquierda y otro en la derecha, denominados `Dev1` y `Dev2`, respectivamente), cada uno de los cuales ha clonado el repositorio de GitHub. Además, cada desarrollador ha editado el fichero indicado en negrita. 
+En la parte superior central puedes ver el repositorio en GitHub, el cual contiene los ficheros indicados en la caja. En la parte inferior, se han representado dos desarrolladores (uno en la parte izquierda y otro en la derecha, denominados `Dev1` y `Dev2`, respectivamente), cada uno de los cuales ha clonado el repositorio de GitHub. Además, cada desarrollador ha editado el fichero indicado en negrita.
 
 Responde y razona las siguientes preguntas (máximo 300 palabras):
-* T1.1 (2p) Indica los comandos que debería realizar cada desarrollador para sincronizar sus cambios con el repositorio en GitHub. No tengas en cuenta la posibilidad de que se produzca un conflicto, ya que ese caso se trata en el siguiente apartado.
-* T1.2 (1p) ¿Puede darse alguna situación de conflicto en este escenario?
+
+- T1.1 (2p) Indica los comandos que debería realizar cada desarrollador para sincronizar sus cambios con el repositorio en GitHub. No tengas en cuenta la posibilidad de que se produzca un conflicto, ya que ese caso se trata en el siguiente apartado.
+- T1.2 (1p) ¿Puede darse alguna situación de conflicto en este escenario?
 
 ### Ejercicio T2 (3p)
 
@@ -82,15 +83,16 @@ La siguiente figura muestra un escenario de la evolución de un repositorio dond
 
 Cada una de las líneas horizontales representa una rama en el repositorio. Como puede observarse, existen tres ramas:
 
-* `main`, que es la rama principal del repositorio.
-* `front-end`, donde trabaja el equipo de desarrollo que está creando el _front-end_ de la aplicación.
-* `back-end`, donde trabaja el equipo de desarrollo que está creando el _back-end_ de la aplicación. 
+- `main`, que es la rama principal del repositorio.
+- `front-end`, donde trabaja el equipo de desarrollo que está creando el _front-end_ de la aplicación.
+- `back-end`, donde trabaja el equipo de desarrollo que está creando el _back-end_ de la aplicación.
 
-Además, cada círculo representa un commit en el repositorio. Los commits se han numerado según su momento temporal de creación. Además, su posición horizontal en cada una de las ramas también ayuda a visualizar el momento temporal en el que se han creado. De esta manera, el commit `c6` se ha creado antes que el commit `c8`, y el círculo que representa `c6` está más a la izquierda que el círculo que representa `c8`. 
+Además, cada círculo representa un commit en el repositorio. Los commits se han numerado según su momento temporal de creación. Además, su posición horizontal en cada una de las ramas también ayuda a visualizar el momento temporal en el que se han creado. De esta manera, el commit `c6` se ha creado antes que el commit `c8`, y el círculo que representa `c6` está más a la izquierda que el círculo que representa `c8`.
 
 Responde y razona la siguiente pregunta (máximo 300 palabras):
-* T2.1 (1p) ¿Qué commits están considerados en la rama `front-end`? 
-* T2.2 (2p) El escenario incluye un conflicto, ¿cuál es? ¿cómo lo solucionarías?
+
+- T2.1 (1p) ¿Qué commits están considerados en la rama `front-end`?
+- T2.2 (2p) El escenario incluye un conflicto, ¿cuál es? ¿cómo lo solucionarías?
 
 ### Ejercicio T3 (1p)
 
@@ -98,10 +100,11 @@ El usuario `jlcanovas` de GitHub te muestra uno de los repositorios de su cuenta
 
 ![ej3](img/ej3.png)
 
-El usuario afirma que todo el trabajo de ese repositorio es suyo, y que siempre ha trabajado, desde su inicio, solo en el desarrollo del código.  
+El usuario afirma que todo el trabajo de ese repositorio es suyo, y que siempre ha trabajado, desde su inicio, solo en el desarrollo del código.
 
 Responde y razona las siguientes preguntas (máximo 300 palabras):
-* (1p) ¿Tienes motivos para dudar de la afirmación del desarrollador? ¿Por qué?
+
+- (1p) ¿Tienes motivos para dudar de la afirmación del desarrollador? ¿Por qué?
 
 ## Ejercicios prácticos (2p)
 
@@ -121,7 +124,7 @@ En primer lugar, asegúrate de que tienes instalados:
 - [VSCode](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
 
-Para que vuestro profesor os localice en GitHub Classroom, recuerda que necesita conocer vuestro _login_ en la plataforma. Una vez estéis registrados en GitHub, podéis informar de vuestro _login_ tal y como se describe en la actividad 4.2 del Reto 1. 
+Para que vuestro profesor os localice en GitHub Classroom, recuerda que necesita conocer vuestro _login_ en la plataforma. Una vez estéis registrados en GitHub, podéis informar de vuestro _login_ tal y cómo se describe en la actividad 4.2 del Reto 1.
 
 A continuación te damos algunas indicaciones para preparar tu repositorio para la realización de los ejercicios.
 
@@ -170,7 +173,8 @@ El entorno de pruebas tiene un menú (accesible mediante la tecla `w`) que os pe
 Implementa una función `ex1` que determine si un determinado valor numérico es negativo.
 
 La función recibirá el siguiente parámetro:
-* `value`: Es un valor numérico.
+
+- `value`: Es un valor numérico.
 
 La función devolverá `true` si el valor es negativo y `false` en otro caso.
 
@@ -179,7 +183,8 @@ La función devolverá `true` si el valor es negativo y `false` en otro caso.
 Implementa una función `ex2` que calcule el precio de una línea de pedido en un ticket de compra.
 
 La función recibirá los siguiente parámetros:
-* `price`: El precio de venta de una unidad de producto. Es un valor numérico positivo que puede llevar decimales.
-* `amount`: Es la cantidad de unidades de producto de la línea de pedido. Es un valor numérico positivo.
+
+- `price`: El precio de venta de una unidad de producto. Es un valor numérico positivo que puede llevar decimales.
+- `amount`: Es la cantidad de unidades de producto de la línea de pedido. Es un valor numérico positivo.
 
 La función deberá devolver el precio total de la línea de pedido, es decir, el valor total de la venta de todas las unidades de producto de la línea de pedido.

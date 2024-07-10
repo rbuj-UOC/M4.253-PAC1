@@ -5,6 +5,7 @@
 ### Ordres necessàries per sincronitzar els canvis a GitHub
 
 Desde la línea d'ordres Dev1:
+
 ```console
 $ git checkout -b dev1-changes
 $ git add index.html
@@ -13,6 +14,7 @@ $ git push origin dev1-changes
 ```
 
 Desde la línea d'ordres Dev2:
+
 ```console
 $ git checkout -b dev2-changes
 $ git add index.html
@@ -47,6 +49,7 @@ Una possible solució seria fer un git rebase abans d'incorporar els canvis de l
 El dipòsit és un fork de [rust-lang/rfcbot-rs](https://github.com/rust-lang/rfcbot-rs). A més, l'últim commit al directori src el va fer [Mark Rousskov](https://github.com/Mark-Simulacrum) el 17 de novembre de 2021. Aquest [commit 2bd38f9](https://github.com/rust-lang/rfcbot-rs/commit/2bd38f9fea0eab524f73eeb451b99dec76caef5d) té el mateix nom, autor i data.
 
 Fins al commit 2bd38f9 han col·laborat 17 desenvolupadors al directori src:
+
 ```console
 iMac-de-Robert:~ robert$ git clone https://github.com/rust-lang/rfcbot-rs
 Cloning into 'rfcbot-rs'...
@@ -64,6 +67,7 @@ iMac-de-Robert:src robert$ git shortlog -sne . | wc -l
 ```
 
 Llista de desenvolupadors que han contribuït al directori src, ordenats per nombre de commits:
+
 ```console
 iMac-de-Robert:src robert$ git shortlog -sne .
    128  Adam Perry <adam.n.perry@gmail.com>
@@ -84,5 +88,5 @@ iMac-de-Robert:src robert$ git shortlog -sne .
      1  Yuki Okushi <huyuumi.dev@gmail.com>
      1  inquisitivecrystal <22333129+inquisitivecrystal@users.noreply.github.com>
 ```
-[Javier Canovas](https://github.com/jlcanovas) no ha col·laborat al directori src.
 
+[Javier Canovas](https://github.com/jlcanovas) no ha col·laborat al directori src.
